@@ -1,0 +1,19 @@
+header {
+  width: 100svw;
+  display: flex;
+}
+headerdiv {
+  display: flex;
+}
+.ulcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100svw;
+  gap: var(--spacing-xl);
+  padding: var(--spacing-xl);
+  min-width: 350px;
+}
+li {
+  font-size: 50px;
+}
