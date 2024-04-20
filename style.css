@@ -32,8 +32,3 @@ a {
   position: relative;
   top: 200px;
 }
-body {
-  background-image: url('./assets/sunny.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
