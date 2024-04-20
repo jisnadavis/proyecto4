@@ -2,14 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-xl);
-  width: 80%;
   padding: 30px;
   justify-content: center;
   align-content: center;
   margin-top: 50px;
   align-items: center;
-  position: relative;
-  left: 10%;
   min-width: 350px;
 }
 .eduimg {
