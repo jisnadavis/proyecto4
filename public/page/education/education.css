@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   gap: var(--spacing-xl);
   width: 80%;
-
   padding: 30px;
   justify-content: center;
   align-content: center;
@@ -52,6 +51,7 @@
 @media (max-width: 436px) {
   .informdiv {
     left: 0px;
+    padding: 10px;
   }
   .educatdiv {
     margin-top: 320px;
