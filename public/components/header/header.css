@@ -42,3 +42,8 @@ nav a:hover {
 .fa-solid {
   font-size: 50px;
 }
+@media (max-width: 428px) {
+  .ulcontainer {
+    gap: var(--spacing-xs);
+  }
+}
