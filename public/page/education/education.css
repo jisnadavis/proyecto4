@@ -51,7 +51,7 @@
 @media (max-width: 436px) {
   .informdiv {
     left: 0px;
-    padding: 10px;
+    padding: 0px;
   }
   .educatdiv {
     margin-top: 320px;
