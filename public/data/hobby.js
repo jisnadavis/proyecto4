@@ -1,4 +1,4 @@
-const hobbies = [
+export const hobbies = [
   {
     name: 'Reading',
     description:
@@ -9,7 +9,7 @@ const hobbies = [
     name: 'interior desiging',
     description:
       'I enjoy make changes in home ambience making its more attrctive and clean',
-    image: './assets/interior.jpg'
+    image: './assets/int.jpg'
   },
   {
     name: 'Cooking',

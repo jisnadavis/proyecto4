@@ -1,6 +1,10 @@
 header {
   width: 100svw;
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: transparent;
 }
 headerdiv {
   display: flex;
@@ -13,7 +17,28 @@ headerdiv {
   gap: var(--spacing-xl);
   padding: var(--spacing-xl);
   min-width: 350px;
+  background-color: blue;
 }
 li {
+  font-size: 50px;
+}
+
+nav a:hover {
+  background-color: rgb(243, 214, 214);
+  transition: 3s;
+}
+.active {
+  color: red;
+  text-decoration: none;
+}
+#togglebutton {
+  width: 80px;
+  position: relative;
+  left: 80%;
+  top: -50px;
+  border: transparent;
+  border-radius: 50px;
+}
+.fa-solid {
   font-size: 50px;
 }

@@ -27,10 +27,13 @@
 a {
   text-decoration: none;
 }
+
+#app {
+  position: relative;
+  top: 200px;
+}
 body {
-  background: radial-gradient(#9c9ba9 15%, transparent 16%),
-    linear-gradient(45deg, transparent 49%, #9c9ba9 49% 51%, transparent 51%),
-    linear-gradient(-45deg, transparent 49%, #9c9ba9 49% 51%, transparent 51%);
-  background-size: 2em 2em;
-  background-color: #c5b4b4;
+  background-image: url('./assets/sunny.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,59 @@
+.educatdiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+  width: 80%;
+
+  padding: 30px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  align-items: center;
+  position: relative;
+  left: 10%;
+  min-width: 350px;
+}
+.eduimg {
+  width: 300px;
+  height: 300px;
+}
+.informdiv {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-l);
+  border-radius: 100px;
+}
+.yellow {
+  background-color: rgb(177, 202, 127);
+}
+.blue {
+  background-color: rgb(173, 173, 229);
+}
+.orange {
+  background-color: rgb(196, 162, 101);
+}
+.red {
+  background-color: rgb(218, 133, 133);
+}
+@media (max-width: 513px) {
+  .educatdiv {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 490px) {
+  .educatdiv {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 436px) {
+  .informdiv {
+    left: 0px;
+  }
+  .educatdiv {
+    margin-top: 320px;
+  }
+}

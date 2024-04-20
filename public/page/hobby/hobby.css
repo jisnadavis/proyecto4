@@ -1,0 +1,42 @@
+.hobby {
+  display: flex;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.divhobby {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 350px;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 150px;
+}
+.divhobby img {
+  width: 300px;
+  position: relative;
+  border-radius: 30px;
+}
+.divhobby h1 {
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(190, 238, 93);
+  padding: 5px;
+}
+.divhobby h3 {
+  width: 400px;
+  text-align: justify;
+  background-color: rgb(219, 74, 74);
+  font-size: 20px;
+}
+@media (max-width: 508px) {
+  .hobby {
+    margin-top: 200px;
+  }
+  .divhobby h3 {
+    width: 350px;
+  }
+}

@@ -1,0 +1,23 @@
+.classfooter {
+  display: flex;
+  width: 100svw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--ppk-gap-l);
+  background-color: rgb(219, 219, 248);
+  height: 150px;
+  margin-top: 250px;
+}
+
+.footimage {
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+}
+span {
+  width: 40px;
+  font-size: 40px;
+}
